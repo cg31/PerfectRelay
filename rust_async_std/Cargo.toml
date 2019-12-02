@@ -1,0 +1,12 @@
+[package]
+name = "relay"
+version = "0.0.0"
+publish = false
+edition = "2018"
+
+[dependencies]
+async-std = "1.2"
+
+[[bin]]
+name = "relay"
+path = "relay.rs"

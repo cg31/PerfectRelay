@@ -21,8 +21,8 @@ fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-fn transfer(mut inbound: std::net::TcpStream, proxy_addr: &String) -> Result<(), Box<dyn Error>> {
-    let mut outbound = std::net::TcpStream::connect(proxy_addr)?;
+fn transfer(mut inbound: std::net::TcpStream, forward: &String) -> Result<(), Box<dyn Error>> {
+    let mut outbound = std::net::TcpStream::connect(forward)?;
 
     let mut buf = [0; 130 * 1024];
     loop {
