@@ -1,5 +1,8 @@
 
+**/.vs/
+**/x64/
 **/target/
 
 relay
 Cargo.lock
+*.user

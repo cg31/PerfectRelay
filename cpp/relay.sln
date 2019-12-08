@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "relay", "relay.vcxproj", "{132AB473-192C-4C7D-87FE-C4BA4A589352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132AB473-192C-4C7D-87FE-C4BA4A589352}.Debug|x64.ActiveCfg = Debug|x64
+		{132AB473-192C-4C7D-87FE-C4BA4A589352}.Debug|x64.Build.0 = Debug|x64
+		{132AB473-192C-4C7D-87FE-C4BA4A589352}.Release|x64.ActiveCfg = Release|x64
+		{132AB473-192C-4C7D-87FE-C4BA4A589352}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C98AD5C-20DC-4F01-9A6B-53D82AC826D7}
+	EndGlobalSection
+EndGlobal
